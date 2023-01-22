@@ -17,17 +17,17 @@ export default class Map {
     this.tileSize = tileSize;
 
     this.yellowDot = new Image();
-    this.yellowDot.src = "../img/yellowDot.png";
+    this.yellowDot.src = "img/yellowDot.png";
 
     this.pinkDot = new Image();
-    this.pinkDot.src = "../img/pinkDot.png";
+    this.pinkDot.src = "img/pinkDot.png";
 
     this.fruit = new Image();
-    this.fruit.src = "../img/fruit.png";
+    this.fruit.src = "img/fruit.png";
 
     this.wall = [];
 
-    let imgSrc = "../img/Wall0";
+    let imgSrc = "img/Wall0";
     for (let i = 0; i <= wallsID; i++) {
       this.wallImg = new Image();
       this.wallImg.src = imgSrc + i + ".png";
