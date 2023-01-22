@@ -60,7 +60,7 @@
     </style>
   </head>
 
-  <body>
+  <body onload="zoom()">
     <div>
       <h1>1222Pac - Man2229</h1>
       <canvas id="gameCanvas"></canvas>
@@ -69,5 +69,10 @@
       <footer>Autores: Ezequiel García Díaz y Paula A. Peralbo Avilés.</footer>
     </div>
     <script src=src/Game.js type="module"></script>
+    <script type="text/javascript">
+        function zoom() {
+            document.body.style.zoom = "80%" 
+        }
+    </script>
   </body>
 </html>
