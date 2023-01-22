@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <title>Pac-Man</title>
+    <style>
+      @font-face {
+        font-family: "pacmanFont";
+        src: url("../fonts/PAC-FONT.ttf");
+      }
+
+      #gameCanvas {
+        text-align: center;
+        box-shadow: 10px 10px 20px black;
+      }
+
+      canvas {
+        margin: auto;
+        display: block;
+        padding: 0;
+      }
+
+      h1 {
+        justify-content: center;
+        font-family: "pacmanFont";
+        text-align: center;
+        font-size: 56px;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.462);
+        letter-spacing: 5px;
+        color: black;
+      }
+
+      h2 {
+        justify-content: center;
+        font-family: "Rockwell";
+        text-align: center;
+        font-size: 32px;
+        color: black;
+      }
+
+      footer {
+        justify-content: center;
+        font-family: "Rockwell";
+        text-align: center;
+        padding: 10px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        color: black;
+      }
+
+      body {
+        background-image: url("../img/fondo5.png");
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>1222Pac - Man2229</h1>
+      <canvas id="gameCanvas"></canvas>
+      <br />
+      <h2 id="comienzo">¡Haz click para comenzar!</h2>
+      <footer>Autores: Ezequiel García Díaz y Paula A. Peralbo Avilés.</footer>
+    </div>
+    <script src=./src/Game.js type="module"></script>
+  </body>
+</html>
