@@ -125,34 +125,34 @@ export default class Enemy {
     switch (color) {
       case "red":
         this.ghost = new Image();
-        this.ghost.src = "../img/red.png";
+        this.ghost.src = "img/red.png";
         console.log("Rojo cargado");
         break;
       case "orange":
         this.ghost = new Image();
-        this.ghost.src = "../img/orange.png";
+        this.ghost.src = "img/orange.png";
         console.log("Naranja cargado");
         break;
       case "blue":
         this.ghost = new Image();
-        this.ghost.src = "../img/blue.png";
+        this.ghost.src = "img/blue.png";
         console.log("Azul cargado");
         break;
       case "pink":
         this.ghost = new Image();
-        this.ghost.src = "../img/pink.png";
+        this.ghost.src = "img/pink.png";
         console.log("Rosa cargado");
         break;
       default:
         this.ghost = new Image();
-        this.ghost.src = "../img/ghost.png";
+        this.ghost.src = "img/ghost.png";
     }
 
     this.scaredGhost = new Image();
-    this.scaredGhost.src = "../img/scared.png";
+    this.scaredGhost.src = "img/scared.png";
 
     this.scaredGhost2 = new Image();
-    this.scaredGhost2.src = "../img/scared2.png";
+    this.scaredGhost2.src = "img/scared2.png";
 
     this.image = this.ghost;
   }
