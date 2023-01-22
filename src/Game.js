@@ -15,10 +15,10 @@ const enemies = tileMap.getEnemies(speed);
 let gameOver = false;
 let gameWin = false;
 const titleScreen = new Image();
-titleScreen.src = "../img/title.png";
-const gameOverSound = new Audio("../sfx/gameOver.wav");
-const gameWinSound = new Audio("../sfx/gameWin.wav");
-const gameStartSound = new Audio("../sfx/gameStart.wav");
+titleScreen.src = "img/title.png";
+const gameOverSound = new Audio("sfx/gameOver.wav");
+const gameWinSound = new Audio("sfx/gameWin.wav");
+const gameStartSound = new Audio("sfx/gameStart.wav");
 
 let gameStart = false;
 let startInterval;
