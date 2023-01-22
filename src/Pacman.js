@@ -17,16 +17,16 @@ export default class Pacman {
     this.score = 0;
 
     this.pacmanRotation = this.Rotation.right;
-    this.wakaSound = new Audio("../sfx/waka.wav");
+    this.wakaSound = new Audio("sfx/waka.wav");
 
-    this.powerDotSound = new Audio("../sfx/power_dot.wav");
+    this.powerDotSound = new Audio("sfx/power_dot.wav");
     this.powerDotActive = false;
     this.powerDotEnding = false;
     this.timers = [];
 
-    this.eatGhostSound = new Audio("../sfx/eat_ghost.wav");
+    this.eatGhostSound = new Audio("sfx/eat_ghost.wav");
 
-    this.eatFruit = new Audio("../sfx/eat_fruit.wav");
+    this.eatFruit = new Audio("sfx/eat_fruit.wav");
 
     document.addEventListener("keydown", this.#keydown);
 
@@ -60,16 +60,16 @@ export default class Pacman {
 
   #loadPacmanImages() {
     const pacmanImage1 = new Image();
-    pacmanImage1.src = "../img/pacman0.png";
+    pacmanImage1.src = "img/pacman0.png";
 
     const pacmanImage2 = new Image();
-    pacmanImage2.src = "../img/pacman1.png";
+    pacmanImage2.src = "img/pacman1.png";
 
     const pacmanImage3 = new Image();
-    pacmanImage3.src = "../img/pacman2.png";
+    pacmanImage3.src = "img/pacman2.png";
 
     const pacmanImage4 = new Image();
-    pacmanImage4.src = "../img/pacman1.png";
+    pacmanImage4.src = "img/pacman1.png";
 
     this.pacmanImages = [
       pacmanImage1,
